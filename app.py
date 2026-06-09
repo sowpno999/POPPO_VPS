@@ -1419,7 +1419,7 @@ if __name__ == "__main__":
     
 #    _t = ngrok.connect(addr=8080, proto="http")
     
-    port = os.environ.get(port, 8080)
+    port = 8080
     debug = os.environ.get("DEBUG", "False").lower() == "true"
     
     print("=" * 50)
